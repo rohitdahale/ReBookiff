@@ -1,0 +1,88 @@
+.image {
+  width: 70px;
+  height: 70px;
+  /* margin-right: 10px; */
+  cursor: pointer;
+  border: 1px solid #494F55;
+  margin: 0px;
+  padding: 4px;
+}
+
+.image_menu{
+  position: relative; /* Set position to relative to establish a positioning context */
+  padding: 0px;
+  width: 500px;
+}
+
+/*
+for border on image scroll section
+.image_menu::after{
+    content: ""; 
+    display: block;
+    position: absolute; 
+    top: 1px; 
+    right: 1px; 
+    bottom: 1px; 
+    left: 1px; 
+    border: 1px solid #000; 
+    border-radius: 3px;
+    pointer-events: none; 
+}*/
+
+.main-image {
+  /* width: 200px; */
+  height: 300px;
+  width: auto;
+  max-width: 100%;
+  margin: 20px;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  box-shadow: 0px 0px 2px 2px #494F55;
+}
+
+li{
+  padding: 0.5% 0.5% 0.5% 1.5%;
+}
+
+.image_section{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display:flex;
+  justify-content:center;
+}
+
+li:hover{
+  cursor: pointer;
+  background-color: rgb(234, 229, 229);
+  border-radius: 10px;
+  width: 88%;
+}
+
+.page_details_buttons{
+  margin-left: 30px;
+}
+
+.titleLine{
+  display: flex;
+  justify-content: space-between;
+}
+
+.shareButton{
+  margin-left: 50px;
+}
+
+.inner_border{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 0px;
+  left: 1px;
+  border: 1px solid #555555;
+  border-radius: 2px;
+  z-index: 2;
+}
+
+  /* dark yellow: #F9C810
+  light-yellow: #FFE996 (card body vala);
+  light-yellow:#FEE795 (background vala) */

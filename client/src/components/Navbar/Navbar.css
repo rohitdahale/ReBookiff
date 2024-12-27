@@ -1,0 +1,29 @@
+.css-1dj7jpf-MuiPaper-root-MuiAppBar-root{
+  background-color: (0,0,0,0.0);
+}
+
+.MuiButton-outlined {
+  border-color: #f9cd48 !important;
+  border-width: 1.5px !important;
+  color: #ffe28b ;
+  color: #f3c027;
+  }
+
+.image{
+  border:0px;
+}
+
+.smiley-face{
+  transform: rotate(90deg);
+}
+
+.button-style {
+  color: black;
+  background-color: #ffbf00;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
